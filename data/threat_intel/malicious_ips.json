@@ -1,0 +1,67 @@
+{
+  "198.51.100.23": {
+    "ip": "198.51.100.23",
+    "threat_type": "C2 Server / Botnet Controller",
+    "threat_actor": "APT-29 / Cozy Bear Affiliate",
+    "confidence": 95,
+    "severity": "CRITICAL",
+    "country": "RU",
+    "city": "Moscow",
+    "isp": "RosTeleNet",
+    "asn": "AS42118",
+    "first_seen": "2026-01-12",
+    "tags": ["c2", "cobalt_strike", "botnet"]
+  },
+  "203.0.113.45": {
+    "ip": "203.0.113.45",
+    "threat_type": "Tor Exit Node / Scanner",
+    "threat_actor": "Unknown / Automated Recon",
+    "confidence": 88,
+    "severity": "HIGH",
+    "country": "NL",
+    "city": "Amsterdam",
+    "isp": "KPN Telecom",
+    "asn": "AS1136",
+    "first_seen": "2026-03-05",
+    "tags": ["tor_exit", "vulnerability_scanner", "shodan_probe"]
+  },
+  "192.0.2.100": {
+    "ip": "192.0.2.100",
+    "threat_type": "Brute-Force Farm",
+    "threat_actor": "Mirai / SSH Dict Bot",
+    "confidence": 92,
+    "severity": "HIGH",
+    "country": "CN",
+    "city": "Shenzhen",
+    "isp": "China Telecom",
+    "asn": "AS4134",
+    "first_seen": "2026-04-18",
+    "tags": ["brute_force", "ssh_scan", "dictionary_attack"]
+  },
+  "185.220.101.5": {
+    "ip": "185.220.101.5",
+    "threat_type": "Known Tor Exit Node",
+    "threat_actor": "Anonymized Proxy",
+    "confidence": 80,
+    "severity": "MEDIUM",
+    "country": "DE",
+    "city": "Frankfurt",
+    "isp": "HostEurope GmbH",
+    "asn": "AS20773",
+    "first_seen": "2026-02-20",
+    "tags": ["tor", "proxy", "anonymous"]
+  },
+  "45.33.32.156": {
+    "ip": "45.33.32.156",
+    "threat_type": "Mass Network Scanner",
+    "threat_actor": "ShadowServer / Masscan",
+    "confidence": 75,
+    "severity": "MEDIUM",
+    "country": "US",
+    "city": "Fremont",
+    "isp": "Linode LLC",
+    "asn": "AS63949",
+    "first_seen": "2026-05-10",
+    "tags": ["scanner", "masscan", "port_survey"]
+  }
+}

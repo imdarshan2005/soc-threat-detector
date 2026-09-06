@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Streamlit state & cache
+.streamlit/secrets.toml
+
+# SQLite Database (allow sample data, but keep runtime DB clean or include fresh DB)
+*.sqlite3
+# We can include data/soc_database.db or recreate via seed_data.py
+data/soc_database.db
+
+# OS Generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

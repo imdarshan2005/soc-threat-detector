@@ -1,0 +1,104 @@
+[
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-09-06T04:30:10.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "Administrator",
+    "WorkstationName": "WORKSTATION-X",
+    "IpAddress": "198.51.100.23",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password",
+    "Status": "0xC000006D",
+    "SubStatus": "0xC000006A"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-09-06T04:30:14.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "Administrator",
+    "WorkstationName": "WORKSTATION-X",
+    "IpAddress": "198.51.100.23",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password",
+    "Status": "0xC000006D",
+    "SubStatus": "0xC000006A"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-09-06T04:30:18.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "Administrator",
+    "WorkstationName": "WORKSTATION-X",
+    "IpAddress": "198.51.100.23",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password",
+    "Status": "0xC000006D",
+    "SubStatus": "0xC000006A"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-09-06T04:30:22.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "Administrator",
+    "WorkstationName": "WORKSTATION-X",
+    "IpAddress": "198.51.100.23",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password",
+    "Status": "0xC000006D",
+    "SubStatus": "0xC000006A"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-09-06T04:30:26.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "Administrator",
+    "WorkstationName": "WORKSTATION-X",
+    "IpAddress": "198.51.100.23",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password",
+    "Status": "0xC000006D",
+    "SubStatus": "0xC000006A"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-09-06T04:30:30.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "Administrator",
+    "WorkstationName": "WORKSTATION-X",
+    "IpAddress": "198.51.100.23",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password",
+    "Status": "0xC000006D",
+    "SubStatus": "0xC000006A"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-09-06T04:30:45.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "Administrator",
+    "WorkstationName": "WORKSTATION-X",
+    "IpAddress": "198.51.100.23",
+    "LogonType": 3,
+    "AuthenticationPackageName": "NTLM",
+    "Status": "0x0"
+  },
+  {
+    "EventID": 4672,
+    "TimeCreated": "2026-09-06T04:30:46.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "Administrator",
+    "PrivilegeList": ["SeSecurityPrivilege", "SeTakeOwnershipPrivilege", "SeDebugPrivilege"],
+    "Status": "0x0"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-09-06T09:05:00.000Z",
+    "Computer": "DC-PROD-01.corp.local",
+    "TargetUserName": "bob_corp",
+    "WorkstationName": "WS-FINANCE-04",
+    "IpAddress": "10.0.2.14",
+    "LogonType": 2,
+    "AuthenticationPackageName": "Kerberos",
+    "Status": "0x0"
+  }
+]
