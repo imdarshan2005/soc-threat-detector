@@ -6,7 +6,14 @@
 [![Database](https://img.shields.io/badge/Database-SQLite3-lightgrey.svg?style=flat-square&logo=sqlite)](https://sqlite.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-> **A production-grade, modular Security Information and Event Management (SIEM) and Threat Detection platform built for modern Security Operations Centers (SOC). Ingests heterogeneous security logs, applies sliding-window detection rules mapped to the MITRE ATT&CK framework, correlates threat intelligence IOCs, and provides an interactive Tier-2 analyst triage workbench.**
+> **A modular Security Information and Event Management (SIEM) and Threat Detection simulation platform designed for modern Security Operations Centers (SOC). Ingests heterogeneous security logs, applies sliding-window correlation rules mapped to the MITRE ATT&CK framework, cross-references threat intelligence IOCs, and provides an interactive Tier-2 analyst triage workbench.**
+
+---
+
+## 🖥️ Interactive SOC Analyst Command Center
+
+![SOC Sentinel Dashboard Preview](docs/assets/dashboard_preview.png)
+*Interactive Tier-2 SOC Analyst Command Center: Real-time telemetry, alert triage workbench, and MITRE ATT&CK correlation.*
 
 ---
 
