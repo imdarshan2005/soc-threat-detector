@@ -6,15 +6,14 @@ This guide is designed to help you showcase **SOC Sentinel** on your resume and 
 
 ## 📄 1. Resume Bullet Points (Copy & Paste to CV)
 
-### Format Option 1: Bulleted Project Experience
+### Format Option 1: Recommended Concise Resume Format (One-Page Friendly)
 **SOC Sentinel — SIEM Log Monitoring & Threat Detection Platform**  
-*Technologies: Python, Streamlit, Pandas, SQLite, Regex, Plotly, MITRE ATT&CK, Pytest*
-- **Architected a modular SIEM platform** in Python capable of ingesting and normalizing heterogeneous security telemetry (Linux auth logs, Apache/Nginx web logs, Windows Event IDs 4624/4625/4672, and perimeter firewall CSVs) into an ECS-aligned schema.
-- **Engineered a sliding-window threat detection engine** implementing 6 detection rules mapped directly to the **MITRE ATT&CK framework** (T1110 Brute Force, T1046 Port Scan, T1190 Web Exploits, T1078 Valid Accounts, T1548 Sudo Abuse).
-- **Implemented compromise escalation logic** that detects brute-force authentication storms ($>5$ failures in 120s) and automatically flags **Critical Account Takeovers** upon subsequent successful authentications.
-- **Integrated Threat Intelligence enrichment** and simulated GeoIP telemetry, cross-referencing external IPs against known C2 and Tor exit node IOC feeds with confidence scoring.
-- **Developed a dark-themed SOC Command Center** using Streamlit and Plotly, featuring real-time attack telemetry, SIEM log hunting, case triage workbench (New $\to$ Contained $\to$ Resolved), and one-click CISO incident forensics export.
-- **Built an automated Pytest test suite** with 13 unit and integration tests verifying regex extraction accuracy, temporal correlation thresholds, and ACID database persistence.
+*Python, Streamlit, Pandas, SQLite, Regex, Plotly, MITRE ATT&CK, Pytest* | [GitHub Link](https://github.com/imdarshan2005/soc-threat-detector)
+- Built a modular SIEM platform to ingest and normalize multi-source Linux, web server, Windows Security, and firewall logs into a unified event schema.
+- Engineered a sliding-window correlation engine with 6 detection rules mapped to the MITRE ATT&CK framework, detecting brute-force attacks, port scans, web attacks, suspicious logins, and privilege escalation.
+- Implemented compromise escalation that upgrades brute-force alerts after subsequent successful logins, with simulated threat-intelligence IOC enrichment.
+- Developed an interactive Streamlit SOC dashboard for threat telemetry, alert triage, SIEM log hunting, attack simulation, and forensic report generation.
+- Added 13 Pytest unit and integration tests covering log parsers, detection rules, and SQLite database operations.
 
 ---
 
